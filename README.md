@@ -40,9 +40,13 @@ python manage.py migrate
 ```
 
 ## Add API keys in .env file
-Get opencagedata api key from https://opencagedata.com/guides/how-to-create-a-new-api-key
-Get openrouteservice api key from https://api.openrouteservice.org
-Get geoapify api key from https://www.geoapify.com/geocoding-api/
+* Get opencagedata api key from https://opencagedata.com/guides/how-to-create-a-new-api-key
+
+* Get openrouteservice api key from https://api.openrouteservice.org
+
+* Get geoapify api key from https://www.geoapify.com/geocoding-api/
+
+Create your .env file and write the api keys as following:
 ```bash
 OPENCAGE_API_KEY=<OPENCAGE_API_KEY>
 OPENROUTESERVICE_API_KEY=<OPENROUTESERVICE_API_KEY>
