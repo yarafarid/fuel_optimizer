@@ -1,3 +1,6 @@
+# Loom Video 
+https://www.loom.com/share/effeeb90eaa24e05b4b8830704d63aac
+
 # Django Project  
 
 ## Overview  
