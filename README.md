@@ -46,6 +46,9 @@ python manage.py migrate
 
 * Get geoapify api key from https://www.geoapify.com/geocoding-api/
 
+**NOTE: geoapify is only used in preprocessing script as it supports batching to process the +8000 stations.**
+I didn't use it in the endpoint view because it was too slow and I prefered to give the user a real time experience. It's a trade off between performance and cost here.
+
 Create your .env file and write the api keys as following:
 ```bash
 OPENCAGE_API_KEY=<OPENCAGE_API_KEY>
